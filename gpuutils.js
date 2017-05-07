@@ -2,6 +2,7 @@
  * Contains utility functions to make WebGL usage more convenient.
  * Supports data only up to 2-dimensional arrays due to the nature of
  * textures.
+ * Main gist taken from http://www.vizitsolutions.com/portfolio/webgl/gpgpu/
  * @author zixian92
  */
 
