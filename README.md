@@ -6,6 +6,9 @@ I was quite interested in using parallelism to speed up programs after an introd
 
 Even though this project is not as powerful, feel free to give it a try if you only need to crunch numbers and don't mind writing GL Shader Language code :)
 
+## Sample Application Project(s)
+- [WebGPU](https://zixian92.github.io/webgpu/)
+
 ## What this is for
 This wrapper is implemented with general-purpose computation in mind, so
 rendering a scene object by object is NOT possible as the geometry and
