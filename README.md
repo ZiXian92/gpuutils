@@ -41,6 +41,7 @@ The following is/are the publicly exposed methods. No one can stop you from digg
 ### GPUKernelProgram
 **(dataArrays, dataInfo, uniforms, width, height):** Executes the compiled kernel program on the given input data, returning a matrix of numbers.  
 *Parameters*  
+
 | Name | Type | Comments |
 | ---- | --- | --- |
 | dataArrays | Array&lt;Array&lt;Number&#124;Array&lt;Number&gt;&gt;&gt; | An array of textures/matrices. If it should be a 1-dimensional matrix, use Array&lt;Number&gt;. Otherwise it is 2-dimensional, so use Array&lt;Array&lt;Number&gt;&gt;. |
@@ -53,7 +54,7 @@ A 1D array if `height` is specified as 1 or 2D array otherwise.
 
 ## Example Usage
 The following example shows a program to do matrix multiplication.
-```
+```javascript
 const fragmentShaderSrc = `
 ${gpuutils.headerSrc}
 uniform sampler2D mtx1;
