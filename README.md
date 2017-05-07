@@ -48,7 +48,8 @@ The following is/are the publicly exposed methods. No one can stop you from digg
 | dataInfo | Array&lt;{ name: String, width: Integer, height: Integer }&gt; | Descriptors for the matrices/textures passed in. Ordering should be the same as in `dataArrays`. `name` should match the corresponding `sampler2D` variable to be described. `width` and `height` describes the dimensions of the matrix/texture. |
 | uniforms | { &lt;fragmentShaderVariableName&gt;: { type: String, value: Any }} | This is used to bind values to all uniform variables in your fragment shader. Each `fragmentShaderVariableName` should exactly match to the corresponding uniform variable name in your program. The `type` attribute is any of the supported uniform variable types(refer to page 8 of [TyphoonLabs GLSL Tutorial](https://www.opengl.org/sdk/docs/tutorials/TyphoonLabs/Chapter_1.pdf)) except any data type that starts with `sampler`. The `value` attribute is the value to be bound to that uniform variable. |
 | width | Integer | The width of the output matrix |
-| height | Integer | The height of the output matrix |
+| height | Integer | The height of the output matrix |  
+
 *Returns*  
 A 1D array if `height` is specified as 1 or 2D array otherwise.
 
